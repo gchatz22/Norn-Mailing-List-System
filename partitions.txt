@@ -1,0 +1,61 @@
+Partitions
+
+Set operators:
+	union 
+		doesn't occur, occurs once, occurs many
+		of 1x1, >1x1, 1x>1
+
+	difference 
+		doesn't occur, occurs once, occurs many
+		of 1x1, >1x1, 1x>1
+		result size is 0, 1, >1
+
+	intersection 
+		doesn't occur, occurs once, occurs many
+		of 1x1, >1x1, 1x>1
+		results size is 0, 1, >1
+
+
+List definitions:
+	size is 1, >1
+	test for a=(b=c) examples
+
+
+Sequence:
+	no semicolons, 1 semicolon, >1 semicolons
+	result is length 0, 1, >1
+	invalid sequence, unknown list name. e.g. (a=x@mit.edu)*b
+
+
+Parallel:
+	0 pipes, 1 pipe, >1 pipes
+	correct evaluation, incorrect evaluation (unknown list name)
+
+
+Whitespace:
+	whitespace occurrence 0, 1, >1 before and after ","
+	whitespace occurrence 0, 1, >1 before and after "!"
+	whitespace occurrence 0, 1, >1 before and after "*"
+	whitespace occurrence 0, 1, >1 before and after "="
+	whitespace occurrence 0, 1, >1 before and after ";"
+	whitespace occurrence 0, 1, >1 before and after "|"
+
+
+Precedence:
+	"*" before "," and vice versa with parentheses to set precedence
+	"*" before "!" and vice versa with parentheses to set precedence
+	"," before "!" and vice versa with parentheses to set precedence
+	";" before "|" and vice versa with parentheses to set precedence
+	"*" before "=" and vice versa with parentheses to set precedence
+	"=" before "|" and vice versa with parentheses to set precedence
+	"*" before "|" and vice versa with parentheses to set precedence
+	"*" before "=" and vice versa with parentheses to set precedence
+	"*" before ";" and vice versa with parentheses to set precedence
+	"," before "|" and vice versa with parentheses to set precedence
+	"," before "=" and vice versa with parentheses to set precedence
+	"," before ";" and vice versa with parentheses to set precedence
+	"!" before "|" and vice versa with parentheses to set precedence
+	"!" before "=" and vice versa with parentheses to set precedence
+	"!" before ";" and vice versa with parentheses to set precedence
+
+
