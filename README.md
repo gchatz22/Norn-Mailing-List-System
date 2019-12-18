@@ -30,9 +30,7 @@ various users can connect and build their mailing lists.
 We also offer functionality for loading and saving mailing lists to keep track of your data.
 
 
-Let us now tell you about the team:
-
-![The Boys](TheBoys.png)
-
 Here we are at 3am the night before the project was due putting in those final touches
 to make our system as beautiful as it can be.
+
+![The Boys](TheBoys.png)
