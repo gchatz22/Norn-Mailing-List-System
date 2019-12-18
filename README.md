@@ -33,4 +33,4 @@ We also offer functionality for loading and saving mailing lists to keep track o
 Here we are at 3am the night before the project was due putting in those final touches
 to make our system as beautiful as it can be.
 
-![The Boys](TheBoys.png)
+![The Boys](TheBoys.jpeg)
