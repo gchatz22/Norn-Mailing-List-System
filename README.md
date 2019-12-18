@@ -39,7 +39,7 @@ to make our system as beautiful as it can be.
 
 ![Brett](Houndify!.png)
 
-![Giannis](Giannis.jpg =250x250)
+![Giannis](Giannis.jpg)
 
 This is Giannis Chatziveroglou. Giannis is a sophomore here at MIT playing basketball and participating
 in his professional engineering fraternity, Theta Tau. He is from Athens, Greece and loves gyros
